@@ -47,23 +47,30 @@ const Header = () => {
 
         {/* MENU CONTENT */}
         <div className="flex flex-col gap-10 h-full justify-center pl-[10vw] font-[bo]">
+<Link
+            href="/"
+            className="lg:text-[7vw] text-[9vw] leading-none !text-[#fff]"
+          >
+            HOME
+          </Link>
+
           <Link
             href="/about"
-            className="lg:text-[9vw] text-[9vw] leading-none !text-[#fff]"
+            className="lg:text-[7vw] text-[9vw] leading-none !text-[#fff]"
           >
             ABOUT
           </Link>
 
           <Link
             href="/contact"
-            className="lg:text-[9vw] text-[9vw] leading-none !text-[#fff] lg:pt-10 pt-2"
+            className="lg:text-[7vw] text-[9vw] leading-none !text-[#fff] lg:pt-10 pt-2"
           >
             CONTACT
           </Link>
 
           <Link
             href="/vip"
-            className="lg:text-[9vw] text-[9vw] leading-none !text-[#fff] pt-10 lg:pt-10 pt-2"
+            className="lg:text-[7vw] text-[9vw] leading-none !text-[#fff] pt-10 lg:pt-10 pt-2"
           >
             VIP ACCESS
           </Link>
