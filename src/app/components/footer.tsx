@@ -1,5 +1,6 @@
 import React from 'react'
 import ScrollReveal from './animation';
+import Link from 'next/link';
 
 const footer = () => {
     return (
@@ -27,14 +28,16 @@ const footer = () => {
                                     <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw] font-[th] tracking-widest uppercase ">Twitter</p>
                                 </div>
 
-                                <div className="flex lg:pt-[100px] pt-[40px]">
+                                <div className="lg:flex lg:pt-[100px] pt-[40px]">
                                     <div className="col-lg-3">
                                         <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw] font-[th] tracking-widest uppercase ">Work</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw] font-[th] tracking-widest uppercase lg:pt-[20px] pt-[10px] ">About</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw] font-[th] tracking-widest uppercase lg:pt-[20px] pt-[10px] ">Contact</p>
+                                        <Link href="/about">
+                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw] font-[th] tracking-widest uppercase lg:pt-[20px] pt-[10px] text-white">About</p></Link>
+                                        <Link href="/contact">
+                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw] font-[th] tracking-widest uppercase lg:pt-[20px] pt-[10px] text-white">Contact</p></Link>
                                     </div>
                                     <div className="col-lg-9">
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw] font-[th] tracking-widest uppercase ">Legal notice</p>
+                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw] font-[th] tracking-widest uppercase lg:pt-[0px] pt-[10px]">Legal notice</p>
                                         <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw] font-[th] tracking-widest uppercase lg:pt-[20px] pt-[10px] ">PRIVACy POLICy</p>
                                         <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw] font-[th] tracking-widest uppercase lg:pt-[20px] pt-[10px]">DESIGNED BY Script studio.io</p>
                                     </div>
