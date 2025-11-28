@@ -3,7 +3,7 @@ import Link from "next/link";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import ScrollReveal from "../components/animation";
-// import TextReveal from "../components/text";
+import TextReveal from "../components/text";
 
 
 export default function Home() {
@@ -44,8 +44,6 @@ export default function Home() {
                 </div>
             </section> */}
 
-
-
             <section className="lg:px-[60px] px-[20px]  overflow-hidden bg-[#070707] text-[#fff] lg:pt-[60px] pt-[10px] lg:pb-[100px] pb-[20px] ">
                 <div className="row">
                     <div className="col-lg-6">
@@ -68,16 +66,15 @@ export default function Home() {
             </section>
 
             <section className="lg:px-[60px] px-[20px]  overflow-hidden bg-[#070707] text-[#fff] lg:pt-[60px] pt-[50px] lg:pb-[100px] pb-[40px] ">
-                <div className="row">
+                <div className="row ">
                     <div className="col-lg-6">
                         <ScrollReveal animation="fadeUp" delay={0.2}>
                             <Image src="/image/sardarji.png" className="w-full" alt="Sikok" width={1830} height={1830} />
                         </ScrollReveal>
                     </div>
+                   
                 </div>
             </section>
-
-
 
             <section className=" overflow-hidden bg-[#070707]   ">
                 <ScrollReveal animation="fadeUp" delay={0.2}>

@@ -11,7 +11,7 @@ export default function Home() {
 
       <Header />
 
-      <section className="lg:px-[60px] px-[20px]  overflow-hidden bg-[#070707] text-[#fff] lg:pt-[150px] pt-[150px] lg:pb-[60px] pb-[40px] ">
+      <section className="lg:px-[60px] px-[20px]  overflow-hidden bg-[#070707] text-[#fff] lg:pt-[150px] pt-[150px] lg:pb-[60px] pb-[20px] ">
         <div className="row">
           <div className="col-lg-12">
             <ScrollReveal animation="fadeUp" delay={0.4}>
@@ -40,18 +40,60 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="lg:px-[60px] px-[20px]  overflow-hidden bg-[#070707] text-[#fff] lg:pt-[60px] pt-[50px] lg:pb-[60px] pb-[40px] ">
+      <section className="lg:px-[60px] px-[20px]  overflow-hidden bg-[#070707] text-[#fff] lg:pt-[60px] pt-[10px] lg:pb-[300px] pb-[10px] ">
         <div className="row">
           <div className="col-lg-12">
             <ScrollReveal animation="fadeUp" delay={0.2}>
-              <Image src="/image/1.png" className="lg:pb-[40px] pb-[10px]" alt="Sikok" width={1830} height={1830} />
+              <video
+                src="/image/paaji1.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="w-full h-full object-cover mb-6"
+              />
+
             </ScrollReveal>
 
-            <ScrollReveal animation="fadeUp" delay={0.2}>
-              <Image src="/image/2.png" className="" alt="Sikok" width={1830} height={1830} />
-            </ScrollReveal>
+            <div className="relative">
+              <div className="col-lg-10">
+                <ScrollReveal animation="fadeUp" delay={0.2}>
+                  <video
+                    src="/image/paaji2.mp4"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="w-full h-full object-cover mb-6"
+                  />
+                </ScrollReveal>
+              </div>
 
-            <div className="col-lg-6">
+              <div className="flex justify-end ">
+                <div className="col-lg-3 absolute bottom-[-500px] lg:block hidden">
+                  <video
+                    src="/image/paaji3.mp4"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="w-full h-full object-cover "
+                  />
+                </div>
+              </div>
+            </div>
+
+            
+
+          </div>
+         
+        </div>
+      </section>
+
+      <section className="lg:px-[60px] px-[20px]  overflow-hidden bg-[#070707] text-[#fff] lg:pt-[0px] pt-[10px] lg:pb-[60px] pb-[40px] ">
+        <div className="row">
+          <div className="col-lg-12">
+<div className="col-lg-6">
               <ScrollReveal animation="fadeUp" delay={0.2}>
                 <p className="lg:text-[5vw] text-[7vw] lg:leading-[6vw] leading-[8vw] text-[#fff] uppercase tracking-[8px] lg:pt-[0px pt-[30px] lg:pb-[20px] pb-[20px] ">Technology Meets Human Artistry</p>
               </ScrollReveal>
@@ -77,9 +119,8 @@ export default function Home() {
                 </button>
               </ScrollReveal>
             </div>
-
           </div>
-          <ScrollReveal animation="fadeUp" delay={0.2}>
+           <ScrollReveal animation="fadeUp" delay={0.2}>
             <div className="flex justify-center lg:pt-[60px] pt-[30px]">
               <p className="lg:text-[15vw] text-[12vw] lg:leading-[16vw] leading-[13vw] font-[me]">PASSIONATE</p>
             </div>
@@ -89,7 +130,14 @@ export default function Home() {
 
       <section className=" overflow-hidden bg-[#070707]   ">
         <ScrollReveal animation="fadeUp" delay={0.2}>
-          <Image src="/image/4.png" className="w-full" alt="Sikok" width={1830} height={1830} />
+          <video
+                src="/image/paaji4.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="w-full h-full object-cover "
+              />
         </ScrollReveal>
       </section>
 
@@ -106,7 +154,7 @@ export default function Home() {
       <section className=" overflow-hidden bg-[#070707] text-[#fff]  lg:pb-[60px] pb-[40px] ">
         <div className="row">
           <div className="col-lg-12">
-            <div className="lg:flex ">
+            {/* <div className="lg:flex ">
               <div className="col-lg-5">
                 <ScrollReveal animation="fadeUp" delay={0.2}>
                   <Image src="/image/5.png" className="w-full" alt="Sikok" width={1830} height={1830} />
@@ -117,7 +165,15 @@ export default function Home() {
                   <Image src="/image/6.png" className="w-full" alt="Sikok" width={1830} height={1830} />
                 </ScrollReveal>
               </div>
-            </div>
+            </div> */}
+            <video
+                src="/image/paaji8.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="w-full h-full object-cover "
+              />
           </div>
         </div>
       </section>
@@ -149,16 +205,23 @@ export default function Home() {
 
       <section className=" overflow-hidden bg-[#070707]">
         <ScrollReveal animation="fadeUp" delay={0.2}>
-          <Image src="/image/7.png" className="w-full" alt="Sikok" width={1830} height={1830} />
+          <video
+                src="/image/paaji5.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="w-full h-full object-cover "
+              />
         </ScrollReveal>
       </section>
 
       <section className="lg:px-[60px] px-[20px]  overflow-hidden bg-[#070707] text-[#fff] lg:pt-[60px] pt-[50px] lg:pb-[60px] pb-[40px] ">
         <div className="row">
           <div className="col-lg-12">
-             <ScrollReveal animation="fadeUp" delay={0.2}>
-            <p className="lg:text-[1.5vw] text-[3vw] lg:leading-[2.2vw] leading-[4vw] ">04/07 BEAT IT! LIVE MUSICAL TOUR</p>
-            <p className="lg:text-[1.2vw] text-[3vw] lg:leading-[2vw] leading-[4vw] font-light ">ASSOCIATE DIRECTOR-STAGE DIRECTOR-CHOREOGRAPHER-CREATIVE-CONCEPT</p>
+            <ScrollReveal animation="fadeUp" delay={0.2}>
+              <p className="lg:text-[1.5vw] text-[3vw] lg:leading-[2.2vw] leading-[4vw] ">04/07 BEAT IT! LIVE MUSICAL TOUR</p>
+              <p className="lg:text-[1.2vw] text-[3vw] lg:leading-[2vw] leading-[4vw] font-light ">ASSOCIATE DIRECTOR-STAGE DIRECTOR-CHOREOGRAPHER-CREATIVE-CONCEPT</p>
             </ScrollReveal>
           </div>
         </div>
@@ -167,7 +230,7 @@ export default function Home() {
       <section className=" overflow-hidden bg-[#070707] text-[#fff]  lg:pb-[60px] pb-[40px] ">
         <div className="row">
           <div className="col-lg-12">
-            <div className="flex ">
+            {/* <div className="flex ">
               <div className="col-lg-7">
                 <ScrollReveal animation="fadeUp" delay={0.2}>
                   <Image src="/image/8.png" className="w-full" alt="Sikok" width={1830} height={1830} />
@@ -178,7 +241,15 @@ export default function Home() {
                   <Image src="/image/9.png" className="w-full" alt="Sikok" width={1830} height={1830} />
                 </ScrollReveal>
               </div>
-            </div>
+            </div> */}
+            <video
+                src="/image/paaji9.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="w-full h-full object-cover "
+              />
           </div>
         </div>
       </section>
@@ -209,17 +280,26 @@ export default function Home() {
       </section>
 
       <section className=" overflow-hidden bg-[#070707]   ">
-        <ScrollReveal animation="fadeUp" delay={0.2}>
-          <Image src="/image/10.png" className="w-full" alt="Sikok" width={1830} height={1830} />
+        
+          <ScrollReveal animation="fadeUp" delay={0.2}>
+          <video
+                src="/image/paaji6.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="w-full h-full object-cover "
+              />
         </ScrollReveal>
+        
       </section>
 
       <section className="lg:px-[60px] px-[20px]  overflow-hidden bg-[#070707] text-[#fff] lg:pt-[60px] pt-[50px]  ">
         <div className="row">
           <div className="col-lg-12">
-             <ScrollReveal animation="fadeUp" delay={0.2}>
-            <p className="lg:text-[1.5vw] text-[3vw] lg:leading-[2.2vw] leading-[4vw] ">07/07 SEAPORT OPENING CEREMONY</p>
-            <p className="lg:text-[1.2vw] text-[3vw] lg:leading-[2vw] leading-[4vw] font-light ">ASSOCIATE SHOW DIRECTOR -STAGE DIRECTOR - CHOREOGRAPHER</p>
+            <ScrollReveal animation="fadeUp" delay={0.2}>
+              <p className="lg:text-[1.5vw] text-[3vw] lg:leading-[2.2vw] leading-[4vw] ">07/07 SEAPORT OPENING CEREMONY</p>
+              <p className="lg:text-[1.2vw] text-[3vw] lg:leading-[2vw] leading-[4vw] font-light ">ASSOCIATE SHOW DIRECTOR -STAGE DIRECTOR - CHOREOGRAPHER</p>
             </ScrollReveal>
           </div>
         </div>
