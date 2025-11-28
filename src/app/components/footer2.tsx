@@ -39,7 +39,9 @@ const footer = () => {
                                     <div className="col-lg-9">
                                         <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw] font-[th] tracking-widest uppercase lg:pt-[0px] pt-[10px]">Legal notice</p>
                                         <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw] font-[th] tracking-widest uppercase lg:pt-[20px] pt-[10px] ">PRIVACy POLICy</p>
-                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw] font-[th] tracking-widest uppercase lg:pt-[20px] pt-[10px]">DESIGNED BY Script studio.io</p>
+                                        <Link href="https://www.scriptstudio.in/" className='text-black'>
+                                        <p className="lg:text-[0.9vw] text-[3vw] lg:leading-[1.2vw] leading-[4vw] font-[th] tracking-widest uppercase lg:pt-[20px] pt-[10px]">DESIGNED BY Script studio.in</p>
+                                        </Link>
                                     </div>
                                 </div>
 
